@@ -1,0 +1,69 @@
+.wrapper {
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.topbar {
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile {
+  position: relative;
+  z-index: 1;
+}
+
+.selection {
+  margin-top: 6.75rem;
+}
+
+.heading {
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  flex: 1 0 13.375rem;
+  max-width: 13.375rem;
+  padding: 0 0.75rem;
+}
+
+.card {
+  padding: 2.5rem 1.6875rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+}
+
+.eTime {
+  background-color: var(--blue-default);
+}
+
+.ePayroll {
+  background-color: #5ac46a;
+}
+
+.module {
+  text-align: center;
+}

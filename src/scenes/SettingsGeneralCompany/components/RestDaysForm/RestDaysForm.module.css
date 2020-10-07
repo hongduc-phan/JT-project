@@ -1,0 +1,30 @@
+.title {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 90%;
+}
+
+.icon {
+  display: flex;
+  margin-left: 0.5rem;
+  font-size: 2rem;
+  color: var(--grey-light);
+}
+
+.colRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowInput {
+  margin-bottom: 2rem;
+}

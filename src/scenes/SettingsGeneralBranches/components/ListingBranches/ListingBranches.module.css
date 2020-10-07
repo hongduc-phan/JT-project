@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  margin-left: 1.25rem;
+}
+
+.searchIcon {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}

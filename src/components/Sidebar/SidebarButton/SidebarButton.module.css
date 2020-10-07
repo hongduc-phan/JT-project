@@ -1,0 +1,18 @@
+.icon {
+  cursor: pointer;
+  outline: none;
+  padding: 1rem;
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  min-width: 0;
+  transition: 150ms all ease-in-out;
+}
+
+.iconActive,
+.icon:hover {
+  background-color: var(--sidebar-active);
+}

@@ -1,0 +1,37 @@
+.menu {
+  display: flex;
+  opacity: 0.54;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 0.9375rem 1.5rem;
+  color: var(--white);
+  transition: opacity 333ms ease-in-out;
+}
+
+.menuActive {
+  opacity: 1;
+}
+
+.menuIcon {
+  margin-left: auto;
+  font-size: 24px;
+  display: inline-flex;
+}
+
+.subMenu {
+  cursor: pointer;
+  opacity: 0.54;
+  color: var(--white);
+  list-style-type: none;
+  transition: opacity 333ms ease-in-out;
+  padding-left: 2.5625rem;
+  padding-right: 2.5625rem;
+}
+
+.subMenu:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.subMenuActive {
+  opacity: 1;
+}

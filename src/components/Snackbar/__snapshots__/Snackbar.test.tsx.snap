@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Snackbar /> Should match snapshot error style with icon 1`] = `
+<div
+  className="typo root error body2 black left"
+>
+  <span
+    className="icon"
+  >
+    <svg
+      height="1em"
+      viewBox="0 0 24 24"
+      width="1em"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <path
+          d="M0 0h24v24H0z"
+        />
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  </span>
+  <span>
+    Unable to save company information. Please check your internet connection.
+  </span>
+</div>
+`;
+
+exports[`<Snackbar /> Should match snapshot normal style 1`] = `
+<div
+  className="typo root body2 black left"
+>
+  Company information saved
+</div>
+`;

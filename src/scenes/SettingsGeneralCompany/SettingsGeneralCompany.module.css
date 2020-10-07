@@ -1,0 +1,61 @@
+.wrapper {
+  padding: 1.5rem;
+}
+
+/* Title */
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+.subTitle {
+  margin-bottom: 1.5rem;
+}
+
+/* Button */
+
+.colRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.button {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+.footer {
+  padding: 1.5rem;
+  text-align: right;
+}
+
+.button {
+  margin-left: 0.5rem;
+}
+
+/* Modal */
+
+.modal {
+  width: 29.75rem;
+  padding: 2.25rem 0;
+  text-align: center;
+}
+
+.subHeading {
+  margin-top: 1rem;
+  margin-bottom: 2.25rem;
+}
+
+.modalButton {
+  width: 16.25rem;
+  padding: 1.125rem 0;
+}
+
+.modalIllus {
+  margin-left: -1.25rem;
+  margin-bottom: 2.25rem;
+}

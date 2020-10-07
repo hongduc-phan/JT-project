@@ -1,0 +1,87 @@
+/* Styleguidist */
+
+:global(.CodeMirror-code) {
+  line-height: 1.6;
+}
+
+/* Button */
+
+:global(.button-row) > button {
+  margin: 0 0.5rem;
+}
+
+/* Typo */
+
+:global(.typo-list) {
+  padding: 0;
+  list-style-type: none;
+}
+
+:global(.typo-list) > li {
+  margin: 0.5rem 0;
+}
+
+/* Icons */
+
+:global(.icon-list) {
+  background-color: #1f94cb;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+:global(.icon-list) > div {
+  display: flex;
+}
+
+:global(.icon-list) > div:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+:global(.icon-list) > div > div {
+  margin: 0 0.5rem;
+  display: inline-flex;
+}
+
+/* Notification */
+
+:global(.notification) {
+  font-size: 2rem;
+}
+
+/* Table */
+
+:global(.table__wrapper) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+:global(.table__button) {
+  display: inline-flex !important;
+  min-width: 0 !important;
+  padding: 0.5rem !important;
+  margin: 0 0.25rem !important;
+  border-radius: 50% !important;
+  font-size: 1.5rem !important;
+  color: #9ca2a7 !important;
+}
+
+/* Topbar */
+:global(.topbar__title) {
+  flex-grow: 1;
+}
+
+:global(.sidebar-demo) {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+:global(.sidebar-demo-in) {
+  position: absolute !important;
+}
+
+:global(.snackbar-row) {
+  margin-bottom: 1rem;
+}

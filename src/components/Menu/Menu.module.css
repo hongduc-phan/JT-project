@@ -1,0 +1,7 @@
+.wrap {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  background-color: var(--white);
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,25 @@
+.search {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.results {
+  position: absolute;
+  top: 44px;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.34);
+}
+
+.result {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.map {
+  width: 100%;
+  max-height: 500px;
+  height: calc(100vh - 300px);
+}

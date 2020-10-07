@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> Should match table snapshot 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="tableHead"
+  >
+    <tr>
+      <th
+        className="column"
+      >
+        <span
+          className="typo body2 greyDark left"
+        >
+          Department
+        </span>
+      </th>
+      <th
+        className="column"
+      >
+        <span
+          className="typo body2 greyDark left"
+        >
+          Salary
+        </span>
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="tableBody"
+  >
+    <tr>
+      <td
+        className="cell"
+      >
+        HR
+      </td>
+      <td
+        className="cell"
+      >
+        8000
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="cell"
+      >
+        Sales
+      </td>
+      <td
+        className="cell"
+      >
+        4000
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="cell"
+      >
+        Engineering
+      </td>
+      <td
+        className="cell"
+      >
+        7000
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="cell"
+      >
+        Finance
+      </td>
+      <td
+        className="cell"
+      >
+        3000
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

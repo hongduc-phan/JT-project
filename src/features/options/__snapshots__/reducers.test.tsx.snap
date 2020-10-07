@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options Reducers Init state Should match snapshot 1`] = `
+Object {
+  "banks": Object {
+    "isFailed": false,
+    "isFetching": false,
+    "lastUpdated": 0,
+    "list": Array [],
+  },
+  "countries": Object {
+    "isFailed": false,
+    "isFetching": false,
+    "lastUpdated": 0,
+    "list": Array [],
+  },
+  "states": Object {
+    "isFailed": false,
+    "isFetching": false,
+    "lastUpdated": 0,
+    "list": Array [],
+  },
+}
+`;

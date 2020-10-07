@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="46px" viewBox="0 0 26 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>dollar-sign</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="2_Modules" transform="translate(-824.000000, -361.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-3" transform="translate(730.000000, 264.000000)">
+                <g id="Blue" transform="translate(27.000000, 40.000000)">
+                    <g id="dollar-sign" transform="translate(68.000000, 58.000000)">
+                        <path d="M12,0 L12,44" id="Path"></path>
+                        <path d="M22,8 L7,8 C3.13400675,8 0,11.1340068 0,15 C0,18.8659932 3.13400675,22 7,22 L17,22 C20.8659932,22.0000001 23.9999999,25.1340068 23.9999999,29 C23.9999999,32.8659932 20.8659932,35.9999999 17,36 L0,36" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

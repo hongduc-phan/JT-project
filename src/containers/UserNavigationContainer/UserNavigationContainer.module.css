@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--grey-light);
+}
+
+.navigationIcon {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+}
+
+.navigationIcon:not(:first-child) {
+  margin-left: 1.25rem;
+}
+
+.icon {
+  font-size: 2rem;
+}

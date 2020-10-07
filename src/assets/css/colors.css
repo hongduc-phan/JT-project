@@ -1,0 +1,23 @@
+/* Color palette */
+
+:root {
+  --black: #151c23;
+
+  --grey-dark: #505355;
+  --grey-medium: #7d8489;
+  --grey-light: #9ca2a7;
+  --grey-offwhite: #eaeaea;
+
+  --white: #fff;
+
+  --blue-dark: #1f94cb;
+  --blue-default: #33ace5;
+  --blue-unconfirmed: #84afc3;
+
+  --green-dark: #299d57;
+  --green-default: #37ac65;
+
+  --red-negative: #c32d2d;
+
+  --sidebar-active: #1a7dab;
+}

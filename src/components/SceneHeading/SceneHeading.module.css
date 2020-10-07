@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+.colRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.col2 {
+  flex: 0 0 40%;
+  max-width: 40%;
+}

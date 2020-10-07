@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+
+.logoWithIcon {
+  width: unset;
+  border-radius: 0;
+}
+
+.logoDefault {
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.33;
+  background-color: #84cdf0;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.25rem 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19.5625rem;
+  height: 19.5625rem;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 50%;
+  background-color: var(--blue-default);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button,
+.description {
+  width: 16.5rem;
+  margin: 0 auto 0.75rem auto;
+}
+
+.control {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload {
+  display: none;
+  margin: 0 auto 0.75rem auto;
+}
+
+.error {
+  padding: 0;
+  width: 16.5rem;
+  margin: 0 auto 0.75rem auto;
+}

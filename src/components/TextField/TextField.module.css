@@ -1,0 +1,147 @@
+/* Foundation */
+
+.rootDisabled {
+  opacity: 0.5;
+}
+
+.textField {
+  position: relative;
+  border-radius: 0.1875rem;
+  border: 0.09375rem solid var(--grey-light);
+}
+
+.textField:focus {
+  display: none;
+}
+
+.textField.error {
+  border-color: var(--red-negative) !important;
+}
+
+.textField:hover {
+  border-color: var(--black);
+}
+
+.textField:hover .label {
+  color: var(--black);
+}
+
+/* Label */
+
+.formLabel {
+  position: relative;
+  flex-grow: 1;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: var(--grey-light);
+  background-color: var(--white);
+  transform: translate(0, -0.125rem) scale(1);
+  transition: color 200ms var(--decelerate-easing),
+    transform 200ms var(--decelerate-easing) 0ms;
+  pointer-events: none;
+}
+
+.label.error {
+  color: var(--red-negative) !important;
+}
+
+.activedLabel {
+  padding: 0 0.25rem;
+  color: var(--black);
+  transform: translate(-0.125rem, -1.125rem) scale(0.75);
+  transform-origin: top left;
+}
+
+.tall .activedLabel {
+  transform: translate(-0.125rem, -1.625rem) scale(0.75);
+}
+
+/* Input */
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--black);
+  outline: none;
+  border: none;
+}
+
+.inputReadOnly {
+  cursor: not-allowed;
+}
+
+::placeholder {
+  color: var(--grey-medium);
+}
+
+.input:disabled {
+  background-color: transparent;
+}
+
+.icon {
+  display: inline-flex;
+  color: var(--grey-light);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+/* Group */
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+
+.formGroup.reverse {
+  flex-direction: row-reverse;
+}
+
+.formGroup.reverse .icon {
+  margin-left: 0;
+  margin-right: 0.6875rem;
+}
+
+/* Assistive Text */
+
+.assistiveText {
+  padding: 0 0.8125rem;
+  margin-top: 0.25rem;
+}
+
+/* Activation */
+
+.normal {
+  padding: 0.5rem 0.8125rem;
+}
+
+.active {
+  color: var(--black);
+}
+
+.tall {
+  padding: 1rem 0.8125rem;
+}
+
+.focus {
+  border-color: var(--blue-default) !important;
+}
+
+.arrow {
+  z-index: 1;
+  top: 50%;
+  margin-top: -0.5rem;
+  position: absolute;
+  right: 0.8125rem;
+  color: var(--grey-light);
+}
+
+.inputSelect {
+  cursor: pointer;
+  min-height: 1.125rem;
+}

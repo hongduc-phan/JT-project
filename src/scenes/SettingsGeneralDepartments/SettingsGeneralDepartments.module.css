@@ -1,0 +1,68 @@
+.wrapper {
+  padding: 1.5rem;
+}
+
+/* Search */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  margin-left: 1.25rem;
+}
+
+.searchIcon {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}
+
+/* Title */
+
+.title {
+  margin-bottom: 0.75rem;
+}
+
+/* Table */
+
+.card {
+  margin-top: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* Modal */
+
+.modal {
+  position: relative;
+  width: 29.75rem;
+  height: 10.125rem;
+}
+
+.modalHeading {
+  margin-bottom: 1.5rem;
+}
+
+.modalActions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2.25rem;
+}
+
+.modalButton {
+  margin-left: 0.5rem;
+}

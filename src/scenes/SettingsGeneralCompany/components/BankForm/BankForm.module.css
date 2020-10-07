@@ -1,0 +1,25 @@
+.card {
+  max-width: 29.75rem;
+  width: 80%;
+}
+
+.banks {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.tableBank {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.1875rem;
+}
+
+.tableAction {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tableAction > button:not(:last-child) {
+  margin-right: 1.5rem;
+}

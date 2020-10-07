@@ -1,0 +1,13 @@
+.card {
+  max-width: 29.75rem;
+  width: 80%;
+}
+
+.footer {
+  padding: 1.5rem;
+  text-align: right;
+}
+
+.footer > button {
+  margin-left: 0.5rem;
+}

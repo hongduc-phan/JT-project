@@ -1,0 +1,44 @@
+.wrap {
+  position: fixed;
+  z-index: var(--z-index-sidebar);
+  top: 0;
+  left: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+}
+
+.content {
+  width: 3.5rem;
+  background-color: var(--blue-dark);
+  top: 0;
+  left: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: none;
+  position: absolute;
+  overflow-y: auto;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.expand {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  background-color: var(--sidebar-active);
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: none;
+  overflow-y: auto;
+  flex-direction: column;
+  min-width: 13.8125rem;
+  z-index: 1;
+  transition: left 200ms var(--decelerate-easing);
+}
+
+.expandActive {
+  left: 3.5rem;
+}

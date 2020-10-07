@@ -1,0 +1,16 @@
+.addTitle {
+  margin-bottom: 1.5rem;
+}
+
+.row {
+  margin-bottom: 2.25rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions > button:first-child {
+  margin-right: 0.5rem;
+}

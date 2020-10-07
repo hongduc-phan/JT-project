@@ -1,0 +1,11 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-unused-variable": true,
+    // https://basarat.gitbooks.io/typescript/docs/styleguide/styleguide.html#interface
+    // https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines
+    "interface-name": false
+  }
+}

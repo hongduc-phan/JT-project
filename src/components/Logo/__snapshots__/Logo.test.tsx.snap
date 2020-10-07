@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> Normal Should match logo snapshot 1`] = `
+<div>
+  <span
+    className="typo logo logoDefault h4 white middle"
+  >
+    J
+  </span>
+</div>
+`;
+
+exports[`<Logo /> With logo Should match logo with logo snapshot 1`] = `
+<div>
+  <img
+    alt="JuzTalent"
+    className="logo logoWithIcon"
+    src="https://juztalent.com/wp-content/uploads/2017/01/cropped-juztalent.png"
+  />
+</div>
+`;

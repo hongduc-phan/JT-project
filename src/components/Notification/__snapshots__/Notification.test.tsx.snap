@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> Has notifications Should match notification with bage snapshot 1`] = `
+<span
+  className="notification"
+>
+  <span
+    className="badge"
+  >
+    2
+  </span>
+  Notification
+</span>
+`;
+
+exports[`<Notification /> Normal Should match notification snapshot 1`] = `
+<span
+  className="notification"
+>
+  Notification
+</span>
+`;

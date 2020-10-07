@@ -1,0 +1,32 @@
+.card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+.formRow {
+  margin-bottom: 2.25rem;
+}
+
+.upload {
+  display: flex;
+}
+
+.upload > button {
+  margin-left: 1rem;
+}
+
+.uploadField {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions > button:nth-child(2) {
+  margin-left: auto;
+}
+
+.actions > button:last-child {
+  margin-left: 0.5rem;
+}

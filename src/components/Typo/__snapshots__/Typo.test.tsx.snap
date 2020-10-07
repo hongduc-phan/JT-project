@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typo /> Should display a <div> tag 1`] = `
+<div
+  className="typo body1 black left"
+>
+  JuzTalent
+</div>
+`;
+
+exports[`<Typo /> Should display a <span> tag 1`] = `
+<span
+  className="typo body1 black left"
+>
+  JuzTalent
+</span>
+`;

@@ -1,0 +1,7 @@
+:root {
+  --z-index-sidebar: 1200;
+  --z-index-sidebar-overlay: 1199;
+  --z-index-popover: 1500;
+  --z-index-modal: 1400;
+  --z-index-snack: 1600;
+}

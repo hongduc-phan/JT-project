@@ -1,0 +1,44 @@
+.uploadedLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 50%;
+  background-color: var(--blue-default);
+}
+
+.logo::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.wrapper {
+  padding: 1.5rem 0;
+}
+
+.row {
+  padding: 1.125rem 1.9125rem;
+  border-top: 1px solid var(--grey-offwhite);
+}
+
+.row:last-child {
+  border-bottom: 1px solid var(--grey-offwhite);
+}
+
+.subRow {
+  margin-bottom: 0.5rem;
+}
+
+.subRow:last-child {
+  margin-bottom: 0;
+}

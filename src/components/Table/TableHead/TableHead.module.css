@@ -1,0 +1,6 @@
+.tableHead {
+  padding: 1rem 1.875rem;
+  font-weight: var(--font-weight-regular);
+  text-align: left;
+  border-top: 1px solid var(--grey-offwhite);
+}

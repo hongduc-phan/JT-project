@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Topbar /> Should match topbar snapshot 1`] = `
+<div
+  className="topbar"
+>
+  <div>
+    <span
+      className="typo logo logoDefault h4 white middle"
+    >
+      J
+    </span>
+  </div>
+</div>
+`;
